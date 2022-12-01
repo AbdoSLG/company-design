@@ -37,8 +37,4 @@ function setStyle(el , property,color){
    el.setAttribute( 'style', `${property}:${color} !important` )
 }
 
-let navBtn = document.querySelector(".navbar-toggler")
 
-navBtn.addEventListener("click", (e)=>{
-   setStyle(e.target.parentNode.parentNode ,"background-image"," linear-gradient(90deg,hsl(231, 68%, 21%) 0,hsl(275, 54%, 33%) 51%,hsl(231, 68%, 21%) )")
-})  
